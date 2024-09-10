@@ -1,0 +1,1 @@
+window.alert('javascript in linked in')
