@@ -1,0 +1,37 @@
+#company-logo a{
+
+background-image: url("images/header-logo.jpg");
+background-repeat: no-repeat;
+display: block;
+width: 120px;
+height: 30px;
+margin:0;
+padding: 0;
+
+}
+
+#company-logo span{
+position: absolute;
+left: -1000px;
+
+}
+
+footer {
+display:inline-block;
+
+
+
+}
+
+h1{
+color:red;
+
+}
+
+#herobox{
+width:1000px;
+background-color:#F5EFED;
+text-align: right;
+
+
+}
