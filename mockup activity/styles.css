@@ -156,7 +156,28 @@ top:15px;
 
 
 }
+.breadcrumb {
+    display:flex;
+    position: relative;
+    top: -580px;
+    left:-660px;
+    color:gray;
+    text-decoration:none;
+   
 
+}
+.breadcrumb li a:hover{
+    text-decoration:underline;
+    color:rgb(184, 18, 18);
+}
+#currency{
+position: absolute;
+top:180px;
+right:800px;
+
+
+
+}
 .herobox{
 width:1915px;
 background-color:#F5EFED;
