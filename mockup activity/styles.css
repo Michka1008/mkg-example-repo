@@ -1,3 +1,6 @@
+
+
+
 #company-logo a{
 
 background-image: url("images/header-logo.jpg");
@@ -45,7 +48,7 @@ border-radius: 75px 25px 25px 75px ;
 .shop{
     position: absolute;
     left:700px;
-    bottom:200px;
+    bottom:180px;
 
 
 
@@ -68,7 +71,9 @@ display:inline-block;
 }
 
 .nav-items1{
-    height: 80px;;
+    height: 20px;
+    position: relative;
+    top:-10px;
     background-color:rgb(184, 18, 18);
     display: flex;
     justify-content: space-evenly;
@@ -78,7 +83,7 @@ display:inline-block;
 .cart{
 position: absolute;
 left: 1200px;
-top: 80px;
+top: 20px;
 
 
 .image{
@@ -119,7 +124,7 @@ left: -50px;
 .Admin{
     position: absolute;
     left: 1200px;
-    top: 80px;
+    top: 20px;
 
 .img{
 position: absolute;
@@ -156,12 +161,12 @@ top:15px;
 
 
 }
-.breadcrumb {
+.breadcrumb li a  {
     display:flex;
     position: relative;
-    top: -580px;
+    top: -520px;
     left:-660px;
-    color:gray;
+    color:rgb(69, 59, 59);
     text-decoration:none;
    
 
@@ -172,8 +177,15 @@ top:15px;
 }
 #currency{
 position: absolute;
-top:180px;
+top:125px;
 right:800px;
+
+}
+
+#language{
+position: absolute;
+top:125px;
+right:700px;
 
 
 
@@ -214,10 +226,19 @@ font-style: bold;
       
       .bla{
         position: absolute;
-        bottom: 250px;
+        bottom: 230px;
         left:700px;
         text-align: left;
-    }
+        line-height: 1.4;
+          font-family: "Montserrat", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: <weight>;
+          font-style: normal;
+          letter-spacing:1px;
+          font-size:15px;
+          opacity:0.5 ;
+        }
+   
 
     
 
@@ -230,5 +251,5 @@ ul {
     gap: 15px; /* Space between list items */
     justify-content: center;
     margin-left: 650px;
-    margin-top:150px;
+    margin-top:90px;
 }
