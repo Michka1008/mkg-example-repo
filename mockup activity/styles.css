@@ -23,14 +23,21 @@ margin-top:25px;
 }
 #header-search-button{
 position: absolute;
-left:900px;
+left:926px;
 margin-top:25px;
-
+background-color: rgb(184, 18, 18);
+color: white;
+border-radius:25px 75px 75px 25px ;
 }
+
 #header-search-categories{
 position: absolute;
 left: 643px;
 margin-top:25px;
+background-color: rgb(184, 18, 18);
+color: white;
+border-radius: 75px 25px 25px 75px ;
+
 
 }
 
@@ -67,6 +74,47 @@ display:inline-block;
     justify-content: space-evenly;
     align-items: center;
     color:white
+}
+.admin{
+position: absolute;
+left: 1200px;
+top: 80px;
+
+.img{
+position: absolute;
+bottom: 5px;
+width: 20px;
+height: 20px;
+left: -185px;
+
+
+
+}
+}
+.helloadmin{
+color: gray;
+margin-left:-160px;
+margin-bottom: 0px;
+padding-top: -50px;
+font-weight: 100;
+font-size:12px;
+position: relative;
+top: 15px;
+
+
+}
+
+.Youraccount{
+color:rgb(184, 18, 18);
+margin-left:-160px;
+margin-top:0px;
+font-weight: 100;
+font-size:15px;
+position: relative;
+top:15px;
+
+
+
 }
 
 .herobox{
