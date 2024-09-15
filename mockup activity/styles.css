@@ -7,12 +7,30 @@ width: 120px;
 height: 30px;
 margin:0;
 padding: 0;
+text-align: center;
+
+
+
 
 }
+
+
+
+.shop{
+    position: absolute;
+    left:150px;
+    bottom:200px;
+
+
+
+}
+
 
 #company-logo span{
 position: absolute;
 left: -1000px;
+width: 100%;
+
 
 }
 
@@ -23,15 +41,69 @@ display:inline-block;
 
 }
 
-h1{
-color:red;
+h3 {
+background-color:rgb(184, 18, 18);
+font-size: 100%;
+color: aliceblue;
+margin-top: -17px;
+text-align: center;
+white-space: wrap;
+overflow: hidden;
+text-overflow: ellipsis;
+
+
+
 
 }
 
-#herobox{
-width:1000px;
+.herobox{
+width:1915px;
 background-color:#F5EFED;
 text-align: right;
+position: relative;
+
+}
+
+.text{
+position: absolute;
+bottom: 350px;
+left:180px;
+color: rgb(51, 52, 54);
+font-family: "Bebas Neue", sans-serif;
+font-weight: 200;
 
 
+
+}
+
+.red{
+    position: absolute;
+    bottom: 300px;
+    left: 160px;
+    color: rgb(184, 18, 18);
+    font-size: 40px;
+     font-family: "Bebas Neue", sans-serif;
+     font-weight: 700;
+    font-style: bold;
+      }
+      
+      .bla{
+        position: absolute;
+        bottom: 250px;
+        left:160px;
+        text-align: left;
+    }
+
+    
+
+ul {
+    display: grid;
+    grid-auto-flow: column; /* Places items in a single row */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    list-style: none; /* Removes default list bullets */
+    gap: 15px; /* Space between list items */
+    justify-content: center;
+    margin-left: 650px;
+    margin-top:120px;
 }
