@@ -42,12 +42,28 @@ html {
             
 
         }
+        .color-change1 {
+            font-size: 1em;
+            font-weight: bold;
+            animation: colorAnimation 10s infinite;
+            left:540px;
+            bottom:60px;
+
+        }
+        .color-change2{
+
+            font-size: 1em;
+            font-weight: bold;
+            animation: colorAnimation 10s infinite;
+            
+
+        }
 
 @keyframes colorAnimation {
             0% { color:black }
-            25% { color: rgb(66, 68, 71); }
-            50% { color: rgb(79, 84, 94); }
-            75% { color: rgb(93, 108, 118) }
+            25% { color: rgb(70, 71, 72); }
+            50% { color: rgb(140, 141, 143); }
+            75% { color: rgb(175, 175, 175) }
             100% { color: white; }
         }
     
@@ -61,7 +77,39 @@ bottom: 750px;
 h2{
     color: aliceblue;
     opacity: 0.6;
+    position: absolute;
+   top:1100px;
 
 }
 
+h3{
+    color: aliceblue;
+    opacity: 0.7;
+    position: absolute;
+    left:300px;
+    font-size: 2em;
+   font-weight: bold;
+   letter-spacing:1px;
+   line-height: 60px;
 
+}
+
+h3:hover{
+ color:white;
+}
+
+
+h4{
+
+    color: aliceblue;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 100px;
+    left:900px;
+    font-size: 1.3em;
+   font-weight: bold;
+   letter-spacing:1px;
+   line-height: 30px;
+
+
+}
