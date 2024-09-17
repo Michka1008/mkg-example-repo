@@ -1,6 +1,23 @@
 
+body{
+    margin: 0;
+}
 
-.section1{
+html {
+    scroll-behavior: smooth; 
+}
+
+.section{
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+.section:nth-child(1) {
     background-image: url(images/wallpaper\ dark.webp);
     height: 100vh; 
     display: flex;
@@ -10,39 +27,41 @@
     background-position: center;
 }
 
-.section2 {
-  background-color: black;
-  
+.section:nth-child(2) {
+    background-color:black
 }
 
 
-
-.color-change1 {
+.color-change {
             font-size: 2em;
             font-weight: bold;
             animation: colorAnimation 10s infinite;
             position: absolute;
-            left: 600px;
-            bottom:800px;
+            left: 800px;
+            bottom:700px;
             
 
         }
 
 @keyframes colorAnimation {
             0% { color:black }
-            25% { color: rgb(42, 86, 218); }
-            50% { color: blue; }
-            75% { color: lightskyblue }
+            25% { color: rgb(66, 68, 71); }
+            50% { color: rgb(79, 84, 94); }
+            75% { color: rgb(93, 108, 118) }
             100% { color: white; }
         }
     
 h1{
 color: aliceblue;
-position: absolute;
-left:420px;
-bottom:780px;
 opacity: 0.6;
-}
+position: absolute;
+bottom: 750px;
 
+}
+h2{
+    color: aliceblue;
+    opacity: 0.6;
+
+}
 
 
