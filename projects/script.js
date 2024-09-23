@@ -1,5 +1,5 @@
 document.getElementById('alertButton').onclick = function() {
-    alert('Hello!Email me please at Blablabla@');
+    alert('Hello!Email me please at Blablabla@');/*for hire*/
 };
 const userInput = prompt("Please enter your name:");
 if (userInput !== null) {
